@@ -381,9 +381,9 @@ return table.freeze {
 	-- Gizmos
 	point = createGizmo(renderPoint),
 	box = createGizmo(renderBox),
-	wireBox = createGizmo(renderWireBox),
+	wirebox = createGizmo(renderWireBox),
 	sphere = createGizmo(renderSphere),
-	wireSphere = createGizmo(renderWireSphere),
+	wiresphere = createGizmo(renderWireSphere),
 	line = createGizmo(renderLine),
 	arrow = createGizmo(renderArrow),
 	ray = createGizmo(renderRay),
