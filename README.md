@@ -18,11 +18,11 @@ The following types are supported:
 - arrow: Position, Position
 - ray: Position, Direction
 
-### gizmo.<type>.draw(...) -> void
+### gizmo.\<type\>.draw(...) -> void
 
 Renders the gizmo for a single frame
 
-### gizmo.<type>.create(...) -> object
+### gizmo.\<type\>.create(...) -> object
 
 Creates a new object which can be rendered over multiple frames
 
