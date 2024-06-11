@@ -230,7 +230,7 @@ local function renderWireSphere(style, position: Vector3, radius: number)
 	adornmentX.InnerRadius = innerRadius
 	adornmentX.Height = style.scale
 	adornmentX.CFrame = relativeOrientation
-	applyStyleToAdornment(adornmentX)
+	applyStyleToAdornment(style, adornmentX)
 	table.insert(renderQueue, adornmentX)
 	adornmentY.Radius = outerRadius
 	adornmentY.InnerRadius = innerRadius
